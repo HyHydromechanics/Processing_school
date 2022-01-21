@@ -34,7 +34,7 @@ def draw():
     neck_y=-(body_length + neck_length + radius)
     line(12, -body_length, 12, neck_y)
 
-
+    hair_number = int(random(100))
     # hair
     pushMatrix()
     translate(12, neck_y)
